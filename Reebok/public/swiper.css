@@ -1,0 +1,67 @@
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 45px ;
+  }  */
+
+  .swiper-slide img {
+    display: flex;
+     width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+.swipe123{
+    width: 300px ;
+}
+.swiper-wrapper{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 15px ;
+}
+.swip{
+    width: 300px !important;
+}
+.swiperrrr{
+    margin-right: 500px !important;
+}
+#next1{
+    border: 1px solid;
+    color: black !important;
+    background-color: #fff;
+}
+.swipe-para1{
+    text-transform: capitalize;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    line-height: 28px;
+    color: #1c1c1c;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: .1px;
+}
+.swipe-para2{
+    font-family: sans-serif;
+    /* font-style: italic; */
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 8px;
+    display: flex;
+}
+.swipe-para3{
+    text-decoration: line-through;
+    font-weight: 100 !important;
+    color: #7c7c7c;
+}
+.sec-swiper-rupee{
+    display: flex;
+}

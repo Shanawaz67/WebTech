@@ -1,0 +1,53 @@
+/* link psudo class */
+/* a:link{
+    color: white;
+    background-color: black;
+}
+a:active{
+    color: brown;
+    background-color: yellow;
+}
+a:visited{
+    color: red;
+    background-color: skyblue;
+} */
+a:link{
+    color:white;
+    background-color: black;
+}
+a:active{
+    color: brown;
+    background-color: aqua;
+}
+a:visited{
+    color: aquamarine;
+    background-color: bisque;
+}
+input[type='checkbox']:checked{
+    height: 50px;
+    width: 50px;
+    accent-color: yellow;
+}
+input[type='text']:focus{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    caret-color: white;
+}
+button:hover{
+    /* color: white;
+    background-color: black;
+    border-radius: 20px;
+    border-top-left-radius: 10px; */
+    border-bottom-right-radius: 10px;
+
+}
+div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+div:hover{
+    background-color: aqua;
+    border-radius: 100%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Problem</title>
+    <link rel="stylesheet" href="nav.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Homepage/index.html">Home</a></li>
+            </ul>
+        </nav>
+        <h1>Report a Water Problem</h1>
+        <p>Your contribution helps make a difference.</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <form action="submit_problem.php" method="POST" enctype="multipart/form-data">
+            <!-- Problem Category -->
+            <div class="form-group">
+                <label for="problemCategory">Select Problem Category:</label>
+                <select id="problemCategory" name="problemCategory">
+                    <option value="leak">Water Leak</option>
+                    <option value="contamination">Water Contamination</option>
+                    <option value="infrastructure">Infrastructure Issue</option>
+                    <option value="custom">Other (Please specify)</option>
+                </select>
+            </div>
+
+            <!-- Custom Problem Category -->
+            <div class="form-group" id="customCategory">
+                <label for="customCategoryInput">Specify the Problem:</label>
+                <input type="text" id="customCategoryInput" name="customCategory" placeholder="Describe the problem">
+            </div>
+
+            <!-- Location Input -->
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+
+            <!-- Comment Section -->
+            <div class="form-group">
+                <label for="comment">Comments:</label>
+                <textarea id="comment" name="comment" rows="4" placeholder="Provide additional details (if needed)"></textarea>
+            </div>
+
+            <!-- Image Upload -->
+            <div class="form-group">
+                <label for="image">Upload a Photo (if available):</label>
+                <input type="file" id="image" name="image">
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit"><a href="../Submit/index.html">Submit</a></button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 WaterWatch | <a href="privacy_policy.html">Privacy Policy</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

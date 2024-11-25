@@ -1,0 +1,25 @@
+/* #demo{
+    border:2px solid;
+    height: 200px;
+    width: 200px;
+    position: static;
+    top:1000px;
+    right: 1000px;
+} */
+/* //relative-position */
+#demo1{
+    border:2px solid;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+#demo2{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}

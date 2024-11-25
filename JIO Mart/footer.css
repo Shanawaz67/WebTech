@@ -1,0 +1,94 @@
+footer{
+    /* border: 2px solid red; */
+    height: 450px;
+    margin-top: 30px;
+}
+
+#subfoot div{
+    display: flex;
+    justify-content: space-between;
+}
+#subfoot{
+    /* border: 2px solid blue; */
+    width: 85%;
+    margin: auto;
+    height: inherit;
+}
+ol{
+    list-style: none;
+}
+
+#footer1{
+    display: none;
+}
+ol li{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.08px;
+    line-height: 1.5;
+    color: rgba(0,0,0,.65);
+    padding: 8px;
+}
+.heading{
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+}
+#heading1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #000;
+}
+.span{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.07px;
+    line-height: 1.4285714286;
+    color: #0c5273;
+    
+}
+
+ol li:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.heading:hover{
+    background-color: #fff;
+    cursor: auto;
+}
+#heading1:hover{
+    background-color: #fff;
+    cursor: auto;
+}
+.kooo:hover{
+    background-color: #fff;
+    cursor: auto;
+}
+.span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#down{
+    font-size: 25px;
+    color: #000;
+    font-weight: 900;
+}
+#lastfoot{
+    height: 50px;
+}
+#lastfoot1{
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lastfoot{
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.06px;
+    line-height: 1.3333333333;
+    color: rgba(0,0,0,.65);
+}

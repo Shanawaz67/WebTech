@@ -1,0 +1,15 @@
+h1:first-child{
+    background-color: red;
+} 
+h1:last-child{
+    background-color: aqua;
+}
+h1:nth-child(1){
+    background-color: brown;
+} 
+h1:first-of-type{
+    background-color: greenyellow;
+}
+h1:last-of-type{
+    background-color: brown;
+}

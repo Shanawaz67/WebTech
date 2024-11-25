@@ -1,0 +1,52 @@
+h1{
+    color: red;
+    text-align: center;
+    text-shadow: 10px 10px 1px skyblue;
+}
+p{
+    text-indent: 100px;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    text-decoration: overline;
+    /* letter-spacing: 25px; */
+    word-spacing: 50px;
+    line-height: 50px;
+    text-shadow: 10px 10px 1px red;
+    
+}
+a{
+    /* text-decoration: none; */
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    /* text-decoration-style:dotted ; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: double; */
+    text-decoration-style: wavy;
+    /* text-emphasis: "😁"; */
+    text-decoration-line: overline;
+
+}
+/* body{
+    height: 12000px;
+    width: 12000px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+} */
+h2{
+    border:2px solid;
+    text-wrap:nowrap;
+    text-overflow:ellipsis;
+    /* width: 200px;
+    height: 150px; */
+     overflow: hidden;
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    resize: horizontal;
+    /* resize: vertical; */
+    /* resize: both; */
+
+}

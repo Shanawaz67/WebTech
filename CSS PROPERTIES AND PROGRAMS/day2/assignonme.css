@@ -1,0 +1,36 @@
+#demo{
+    color: gold;
+    background-color: azure;
+}
+#demo1{
+    color: aquamarine;
+}
+#demo2{
+    color: brown;
+}
+#demo3{
+    color: hotpink;
+}
+#demo4{
+    color: antiquewhite;
+}
+#demo5{
+    color: sienna;
+}
+.demo6{
+    color: khaki;
+    background-color: blue;
+}
+h1{
+    background-color: aqua;
+}
+h2{
+    background-color: aquamarine;
+}
+#demo,#demo1,#demo2,.demo6{
+    background-color: red;
+}
+*{
+    
+    background-color: fuchsia;
+}

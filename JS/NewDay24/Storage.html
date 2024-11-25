@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: grid;
+            place-items: center;
+            margin-top: 50px;
+
+        }
+        form{
+            border: 2px solid;
+            width: 350px;
+            height: 400px;
+        }
+        span{
+            color: red;
+            padding-left: 50px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Storage's</h1>
+    <script async src="./Storage.js"></script>
+    <form action="" id="demo">
+      <div>
+        name : <input type="text" id="name"><br>
+        <span>Filed should not be empty</span><br>
+        password : <input type="password" id="password"><br>
+        <span>Filed should not be empty</span><br>
+        <button>Submit</button>
+      </div>
+    </form>
+</body>
+</html>

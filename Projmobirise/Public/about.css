@@ -1,0 +1,45 @@
+
+.div-about-p1{
+    color: #726ae9;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Jost',sans-serif;
+}
+
+.div-about-h{
+    color: #3c4858;
+    font-size: 45px;
+    font-family: 'Jost',sans-serif;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.div-about-p2{
+    color: #3c4858;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight:500;
+    font-family: 'Jost',sans-serif;
+}
+
+.div-about-video{
+    margin-top: -173px;
+    /* width: 1000px; */
+    margin-left: 900px;
+    /* border: 2px solid; */
+    height: 400px;
+    width: 617px;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.div-about-para{
+    /* border: 2px solid; */
+    
+    width: 500px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    /* margin-top: 250px; */
+}

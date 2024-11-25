@@ -1,0 +1,141 @@
+@import url(./nav.css);
+@import url(./deal.css);
+@import url(./banimg.css);
+@import url(./footer.css);
+@import url(./swiper.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JioType",helvetica,arial,sans-serif;
+    color: #141414;
+}
+.sec-header{
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1111;
+}
+.sec-header1{
+    border: 2px solid;
+    border-color: transparent;
+    height: 80px;
+    background-color: #0078ad;
+    /* margin-top: -20px; */
+}
+.hamburg{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.location{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.location img+span{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.07px ;
+    line-height: 1.4285714286;
+    color: #fff;
+}
+.sec-div-head{
+    /* border: 2px solid; */
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.in-field{
+    width: 350px;
+    height: 40px;
+}
+.form1{
+    /* border: 2px solid; */
+    /* margin-left: 800px; */
+    width: 350px;
+    /* margin-top: -35px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.in-field{
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.but-search{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+.but-list{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.sec-div1-head1{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    margin-left: 800px;
+    margin-top: -35px;
+}
+.but-cart{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.but-user{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.but-user img+span{
+    font-family: "JioType",helvetica,arial,sans-serif;
+    font-size: larger;
+    /* padding-bottom: 50px; */
+    color: #fff;
+}
+.hamburg:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: #464543;
+}
+.sec-anc-jio:hover{
+    height: 150px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #464543;
+}
+.location:hover{
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #464543;
+}
+.but-cart:hover{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    background-color: #464543;
+}
+.but-user:hover{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #464543;
+}

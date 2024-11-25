@@ -1,0 +1,144 @@
+@import url(./story.css);
+@import url(./spotlight.css);
+@import url(./gallery.css);
+@import url(./items.css);
+@import url(./addit_ele.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+#head5up-1{
+    /* border: 2px solid; */
+    background: rgba(55, 61, 73, 0.975);
+    position: fixed;
+    transition: top 0.25s ease-in-out;
+    z-index: 10000;
+    /* cursor: default; */
+}
+/* .head-div1{
+       border: 2px solid rebeccapurple;   
+} */
+.head-nav-div1-ul1{
+    /* border: 2px solid navy ; */
+    height: 50px;
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-weight: bolder;
+    font-size: 2.0ex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.head-nav-div1-ul1 li{
+    cursor: pointer;
+}
+.head-nav-div1-ul1 .imgpopup{
+    /* border: 2px solid red; */
+    height: 30px;
+    position: relative;
+    margin-bottom: 7px;
+    top: 2px;
+    background:  rgba(55, 61, 73, 0.975);
+}
+
+.head-div2{
+    /* border:2px solid green; */
+    width: 480px;
+}
+.head-subdiv1{
+    /* border: 2px solid lightcoral; */
+    margin-top: 15px;
+}
+.head-span1 button {
+    /* border: 2px solid darkred; */
+    width: 70px;
+    background-color: #1A3EEF;
+    color: #fff;
+    border-radius: 1ex;
+    font-weight: bolder;
+    font-size: 1.6ex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: transparent;
+}
+.head-span1 button:hover{
+    cursor: pointer;
+}
+.head-span2 button{
+    background-color: #1d9bf0;
+    width: 100px;
+    color: #fff;
+    border-radius: 10ex;
+    font-weight: bolder;
+    font-size: 1.6ex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: transparent;
+}
+.head-span2 button:hover{
+    cursor: pointer;
+}
+.head-subdiv2{
+    /* border: 2px solid greenyellow; */
+    height: 40px;
+    width: 80px;
+    margin-top: 15px;
+}
+.head-subdiv3{
+    margin-top: 5px;
+}
+.head-span3 button{
+    /* border: 2px solid gold; */
+    height: 38px;
+    width: 77px;
+    left:5px;
+    top: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+    border-radius: 4px;
+    border-color: #575d69;
+    background-color: transparent;
+    color: #fff;
+    transition: color 0.2s ease-in-out, border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.head-span3 button:hover{
+    cursor: pointer;
+    color: #e7746f;
+    border-color: #e7746f;
+}
+.head-span4 button{
+    border: 2px solid rgb(60, 66, 50);
+    height: 40px;
+    width: 150px;
+    border-radius: 1ex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    background: #e7746f;
+    border-color: #e7746f;
+    color: #fff;
+}
+.head-span4 button:hover{
+    cursor: pointer;
+}
+.head-div2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 530px;
+}
+#nav5up-1{
+    display: flex;
+}
+code{
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.2);
+}

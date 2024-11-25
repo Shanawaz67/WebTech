@@ -1,0 +1,150 @@
+#sub-section{
+    /* border: 2px solid; */
+    height: 600px;
+}
+#gosec .got{
+    font-size: 4ex;
+    font-weight: 800;
+    font-family: Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-top: 65px;
+}
+#sub-list{
+    /* border: 2px solid; */
+    height: 400px;
+}
+#listplay1{
+    /* border: 2px solid; */
+}
+#listplay{
+    list-style: none;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#subsublist{
+    padding-top: 100px;
+    padding-left: 250px;
+    width: 1100px;
+}
+#icplay{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#paly{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#icplay:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Svg-1{
+    position: absolute;
+    left: 1079px;
+    top: 234.5ex;
+}
+.Svg-1:hover{
+    cursor: pointer;
+}
+#Hdi{
+    /* border:2px solid; */
+}
+#sum1{
+    list-style: none;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#subsublist1{
+    padding-top: 10px;
+    padding-left: 250px;
+    width: 1100px;
+}
+#listin{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tap1{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#listin:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Svg-2{
+    position: absolute;
+    left: 1079px;
+    top: 243ex;
+}
+.Svg-2{
+    cursor: pointer;
+}
+strong{
+    color: green;
+}
+#Iio{
+    /* border:2px solid; */
+}
+#sum2{
+    list-style: none;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#subsublist2{
+    padding-top: 10px;
+    padding-left: 250px;
+    width: 1100px;
+}
+#shuffle{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tap2{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#shuffle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Svg-3{
+    position: absolute;
+    left: 1079px;
+    top: 251.5ex;
+}
+.Svg-3:hover{
+    cursor: pointer;
+}
+#Podcasts{
+    /* border:2px solid; */
+}
+#sum3{
+    list-style: none;
+    font-family: Helvetica,Arial,sans-serif;
+}
+#subsublist3{
+    padding-top: 10px;
+    padding-left: 250px;
+    width: 1100px;
+}
+#search{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tap3{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#search:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Svg-4{
+    position: absolute;
+    left: 1078px;
+    top: 261.5ex;
+}
+.Svg-4:hover{
+    cursor: pointer;
+}
+
+
+
+

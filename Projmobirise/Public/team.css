@@ -1,0 +1,22 @@
+.div-team{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.div-team-img{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 25px;
+}
+.div-img{
+    height: 300px;
+    width: 300px;
+}
+.div-p{
+    color: #3c4858;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Jost',sans-serif;
+} 

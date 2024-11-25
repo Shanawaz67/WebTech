@@ -1,0 +1,27 @@
+ol{
+    border: 2px solid;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    height: 450px;
+    width: 400px;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-content: center; */
+    /* align-content: flex-end; */
+    /* align-content: flex-start; */
+    /* flex-shrink: ; */
+    /* flex-grow: ; */
+    /* flex-basis: ; */
+}
+li{
+    border: 2px solid;
+    height: 50px;
+    width: 70px;
+    margin: 5px;
+}

@@ -1,0 +1,9 @@
+@import url(./external1.css);
+@import url(./external2.css);
+#demo{
+    color: red;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 1px yellow;
+}

@@ -1,0 +1,8 @@
+.sec-div-banimg img{
+    height: 9em !important;
+    width: 47em;
+}
+.sec-div-banimg{
+    display: flex;
+    justify-content: space-around;
+}

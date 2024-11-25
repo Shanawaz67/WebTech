@@ -1,0 +1,73 @@
+@import url(./main.css);
+@import url(./main1.css);
+@import url(./quiz.css);
+@import url(./places.css);
+@import url(./swiper.css);
+@import url(./footer.css);
+@media screen(min-width:370px) and (max-width:1450px){
+    body{
+        
+    }
+}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: TABanjo,Helvetica,Arial,sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-x: hidden;
+    /* background-color: aqua; */
+} 
+
+#nav{
+    /* border: 2px solid red; */
+    height: 73px;
+    
+}
+#sub-nav{
+    /* border: 2px solid blue; */
+    margin: auto;
+    display: flex;
+    height: inherit;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+section>div>span img{
+    height: 3.2em;
+}
+.img{
+    height: 1.5em;
+}
+#nav>div>span+ol{
+    /* border: 2px solid crimson; */
+    list-style: none;
+    display: inline-flex;
+    padding: 0%;
+    
+    
+}
+#img1{
+    /* border: 2px solid yellow; */
+    display: inline-flex;
+    padding: 0%;
+    justify-content: space-between;
+    width: 180px;
+    font-size: 17px;
+    color: #004165
+}
+#nav>div>span+ol li{
+    font-size: 18.5px;
+    height: 35px;
+    /* border: 2px solid yellow; */
+    color: #004165;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+}

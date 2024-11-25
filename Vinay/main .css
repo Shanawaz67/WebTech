@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0B0B0B;
+    width: 100%;
+}
+.ratan{
+    height: 43.95em;
+}
+.para{
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+    font-family: serif;
+    /* border: 2px solid; */
+    width: 750px;
+    position: absolute;
+    left: 600px;
+    bottom: 220px;
+    /* color: red; */
+}

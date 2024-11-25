@@ -1,0 +1,13 @@
+.navbar{
+    background-color: brown !important;
+}
+.nav-link{
+    color: yellow !important;
+}
+img{
+    height: 300px !important;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}

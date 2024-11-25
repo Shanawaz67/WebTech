@@ -1,0 +1,24 @@
+#sub-maindown{
+    /* border: 2px solid red; */
+    height: 450px;
+}
+#sub-itsfree {
+    /* border: 2px solid green; */
+    display: grid;
+    height: 450px;
+    place-items: center;
+    padding-top: 190px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+#sub-itsfree #nocred{
+    color: white;
+    padding-bottom: 150px;
+}
+#sub-itsfree #itsf{
+    color: white;
+}
+
+

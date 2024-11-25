@@ -1,0 +1,41 @@
+#sub-ready{
+    border: 2px solid rgb(176,35,194);
+    height: 500px;
+    background: url(./image/lets-play.svg)left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: left -10px bottom -160px;
+    background-repeat: no-repeat;
+    width: 1518px;
+    padding: 0%;
+}
+.sub-re{
+    margin: 0px auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+#sub-ready1 h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    color: white;
+    font-weight: 900;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sub-ready-get span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5ex;
+}
+#sub-ready-get span button{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+#sub-ready-get span button:hover{
+    cursor: pointer;
+}

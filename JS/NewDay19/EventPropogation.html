@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gp{
+            border: 2px solid;
+            height: 400px;
+            width: 400px;
+        }
+        #p{
+            border: 2px solid;
+            height: 200px;
+            width: 200px;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        #c{
+            border: 2px solid;
+            height: 80px;
+            width: 80px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Propagation</h1>
+    <script async src="./EventPropogation.js"></script>
+    <div id="gp">
+        grandparent
+        <div id="p">
+            parent
+            <div id="c">
+                child
+            </div>
+        </div>
+    </div>
+</body>
+</html>

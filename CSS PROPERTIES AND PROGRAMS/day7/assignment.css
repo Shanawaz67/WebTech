@@ -1,0 +1,24 @@
+h3{
+    background-image: url("https://cdn.pixabay.com/index/2023/06/16/05-31-28-908_1920x550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* background-size: cover; */
+    height: 500px;
+    color: white;
+}
+    
+    
+
+/* div{
+    height: 500px;
+} */
+tr:first-child{
+    color: red;
+}
+/* table>tr>td{
+    size: 100%;
+} */
+div+div{
+    font-family: 'PT Serif', serif;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol{
+            border: 2px solid;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+        }
+        ol li a{
+            color: #fff;
+            text-decoration: none;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li><a href="">home</a></li>
+        <li><a href="">login</a></li>
+        <li><a href="">register</a></li>
+    </ol>
+    <img src="https://cdn.pixabay.com/photo/2023/07/05/04/45/european-shorthair-8107433_640.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2023/07/05/04/45/european-shorthair-8107433_640.jpg" alt="">
+    <img src="https://cdn.pixabay.com/photo/2023/07/01/18/56/dog-8100754_640.jpg" alt="">
+    <form action="#" name="form1" onsubmit="youtube(); return false">
+        <label for="username1">Username:</label>
+        <input type="text" id="username1" name="username1" required><br>
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password1" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="#" name="form2" onsubmit="pixabay(); return false">
+        <label for="username1">Username:</label>
+        <input type="text" id="username1" name="username1"llllll required><br>
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password1" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="#" name="form3" onsubmit="flipkart(); return false">
+        <label for="username1">Username:</label>
+        <input type="text" id="username1" name="username1" required><br>
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password1" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function youtube() {
+            window.open('https://www.youtube.com','_blank');
+        }
+        function pixabay(){
+            window.open('https://www.pixabay.com','_blank');
+        }
+        function flipkart(){
+            window.open('https://www.flipkart.com','_blank');
+        }
+    </script>
+    <script src="./DOMmethods.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+div{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 200px;
+    /* transition: height 5s, width 5s; */
+    /* transition-duration: 8s; */
+    /* transition-delay: 5s; */
+    /* transition-property: height, width; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function:ease-in-out; */
+}
+div:hover{
+    background-color: blue;
+    height: 800px;
+    width: 800px;
+    /* transform:rotate(7770deg); */
+    /* border-radius:100%; */
+    /* transform: translate(300px,400px); */
+    /* transform: translateX(300px); */
+    /* transform: translateY(300px); */
+    /* transform: translateX(-300px); */
+    /* transform: translateY(-300px); */
+    /* transform: rotate(75deg); */
+    /* transform: rotate(-75deg); */
+    /* transform: rotateX(75deg); */
+    /* transform: rotateY(75deg); */
+    /* transform: scale(5,3); */
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+    /* transform: skew(25deg,30deg); */
+    /* transform: skewX(25deg); */
+    /* transform: skewY(25deg); */
+}
+img{
+    transform: rotate(7770deg);
+    transition-duration: 10s;
+}
+img:hover{
+    /* transform: rotateX(7770deg); */
+    /* transform: rotateY(7770deg); */
+    transform: translateX(800px);
+}

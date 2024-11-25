@@ -1,0 +1,83 @@
+.sec-gel{
+    /* border: 2px solid navy; */
+    height: 350px;
+    margin-top: -46px;
+}
+.sec-div-gel{
+    /* border: 2px solid green; */
+    height: 300px;
+}
+.sec-gel-h1{
+    /* border: 2px solid navy; */
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+.sec-gel-p{
+    /* border: 2px solid navajowhite; */
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: -1px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.sec-div-gel-line1{
+    /* border: 2px solid maroon; */
+    /* width: 2000px; */
+    display: flex;
+    
+}
+.sec-div-gel-img{
+    /* border: 2px solid red; */
+    width: auto;
+}
+.sec-div-gel-img img{
+    /* width: auto; */
+    /* border: 2px solid goldenrod; */
+    height: 300px;
+}
+.cover-gel{
+    position: relative;
+    width: 100%;
+    height: 50%;
+} 
+.sec-div-gel-line1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.sec-div-gel-line1::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.sec-div-gel-line1{
+    align-items: center;
+}
+.sec-div-gel-img .sec-div-gel-p{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(transparent, transparent, transparent, 0.6);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}

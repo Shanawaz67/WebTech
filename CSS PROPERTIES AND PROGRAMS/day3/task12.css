@@ -1,0 +1,51 @@
+ol>li{
+    background-color: yellow;
+}
+ol>li>ul>li{
+    background-color: green;
+}
+ol>li>ul>li+li{
+    background-color: red;
+}
+ol>li>ul>li+li+li{
+    background-color: blue;
+}
+ol>li>ul>li+li+li>ol>li{
+    background-color: green;
+}
+ol>li>ul>li+li+li>ol>li+li{
+    background-color: red;
+}
+ol>li>ul>li+li+li>ol>li+li+li{
+    background-color: yellow;
+}
+ol>li+li>ul>li{
+    background-color: coral;
+}
+ol>li+li>ul>li>ul>li{
+    background-color: red;
+}
+ol>li+li>ul>li>ul>li+li{
+    background-color: green;
+}
+ol+div>div{
+    background-color:crimson ;
+}
+ol+div>div>ol>li{
+    background-color: green;
+}
+ol+div>div>ol>li+li{
+    background-color: red;
+}
+ol+div>div>ol>li+li+li{
+    background-color: yellow;
+}
+ol+div>div>ol+div{
+    background-color: coral;
+}
+ol+div>div>ol+div>h1{
+    background-color: red;
+}
+ol+div>div>ol+div>h1+h1{
+    background-color: purple;
+}

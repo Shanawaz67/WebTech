@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Examples</title>
+  <script>
+    function openYouTube() {
+      window.open('https://www.youtube.com', '_blank');
+    }
+
+    function openPixabay() {
+      window.open('https://www.pixabay.com', '_blank');
+    }
+
+    function openFlipkart() {
+      window.open('https://www.flipkart.com', '_blank');
+    }
+  </script>
+</head>
+<body>
+  <form name="form1" onsubmit="openYouTube(); return false;">
+    <label for="username1">Username:</label>
+    <input type="text" id="username1" name="username1" required><br>
+    <label for="password1">Password:</label>
+    <input type="password" id="password1" name="password1" required><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form name="form2" onsubmit="openPixabay(); return false;">
+    <label for="username2">Username:</label>
+    <input type="text" id="username2" name="username2" required><br>
+    <label for="password2">Password:</label>
+    <input type="password" id="password2" name="password2" required><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form name="form3" onsubmit="openFlipkart(); return false;">
+    <label for="username3">Username:</label>
+    <input type="text" id="username3" name="username3" required><br>
+    <label for="password3">Password:</label>
+    <input type="password" id="password3" name="password3" required><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

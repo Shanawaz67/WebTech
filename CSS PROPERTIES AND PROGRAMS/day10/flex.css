@@ -1,0 +1,25 @@
+ol{
+    border:2px solid;
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    visibility:visible;
+    height: 500px;
+}
+ol li{
+    border: 2px solid;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    margin: 15px;
+    flex: 1;
+}

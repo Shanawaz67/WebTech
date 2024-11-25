@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #0077b6; /* Choose your desired background color */
+    color: #ffffff; /* Choose your desired text color */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Style the homepage content */
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.report-button button {
+    background-color: #00a896; /* Choose your desired button color */
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.report-button a:hover {
+    background-color: #007b5f; /* Choose a slightly darker color for hover effect */
+}
+html {
+    background-image: url('./water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the image fixed while scrolling */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}

@@ -1,0 +1,12 @@
+ol{
+    border: 2px solid;
+    list-style: none;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+}
+
+ol li+li{
+    padding-top: 40px;
+}

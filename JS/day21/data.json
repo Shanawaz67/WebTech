@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "abhi" ,
+        "id" : 1,
+        "image" : "https://cdn.pixabay.com/photo/2023/07/25/18/42/mountains-8149677_640.jpg"
+    },
+    {
+        "name" : "vijay",
+        "id" : 2,
+        "image" : "https://cdn.pixabay.com/photo/2023/07/25/18/42/mountains-8149677_640.jpg"
+    },
+    {
+        "name" : "shannu" ,
+        "id" : 3,
+        "image" : "https://cdn.pixabay.com/photo/2023/07/25/18/42/mountains-8149677_640.jpg"
+    }
+]

@@ -1,0 +1,110 @@
+.sec-div-ser{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+}
+.sec-subdiv1-ser{
+    /* border: 2px solid; */
+    font-family: 'Jost',sans-serif;
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.sec-h4-ser{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 5px;
+    color: #726ae9;;
+}
+.sec-h1-ser{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 5px;
+    color: #3c4858;
+}
+.sec-p-ser{
+    color: #8492a6;
+    font-style: normal;
+    line-height: 1.62;
+    width: 100%;
+    font-weight: 400;
+}
+.sec-ser-ul1{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style: none;
+    width: 700px;
+    height: 200px;
+    font-family: 'Jost',sans-serif;
+    background-color: #f9fcff;
+}
+.sec-ser-ul2{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    list-style: none;
+    width: 700px;
+    height: 200px;
+    font-family: 'Jost',sans-serif;
+    background-color: #f9fcff;
+}
+.sre-svg{
+    color:  #726ae9;
+    font-size: x-large;
+}
+.ser-h5{
+    color:  #3c4858;
+    font-size: x-large;
+}
+.ser-para{
+    color:  #8492a6;
+    font-weight: 500;
+}
+.man_img{
+ width: 100px;
+}
+.small_team{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+}
+.div-h11{
+    color: #3c4858;
+    font-family: 'Jost',sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 50px;
+}
+.div-para1{
+    color:  #8492a6;
+    font-weight: 500;
+    font-family: 'Jost',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+.mansp{
+    font-family: 'Jost',sans-serif;
+    letter-spacing: 5px;
+    color: red;
+}
+.man_img{
+    transition: transform .35s ease;
+    transition-duration: 0.35s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: transform;
+    object-fit: cover;
+    overflow: clip;
+}

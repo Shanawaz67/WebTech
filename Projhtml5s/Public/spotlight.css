@@ -1,0 +1,177 @@
+.sec-spotlight1{
+    /* border: 2px solid red; */
+    border: transparent;
+}  
+.sec-div-spot1{
+    /* border:2px solid greenyellow; */
+    height: 350px;
+    width: 1000px;
+    margin-left: 515px;
+}
+.sec-h1-spot1{
+    /* border: 2px solid hotpink; */
+    width: 150px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.sec-p{
+    padding: 0;
+    border: 0;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.sec-div-spot1 button{
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 5em;
+    margin-left: 100px;
+    border: 2px solid #fbf7f7;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.sec-div-spot1 button:hover{
+    cursor: pointer;
+    color: #27EDF7;
+    border-color:#27EDF7;
+}
+.sec-spot1-img1 img{
+    height: 349px;
+    width: 550px;
+    position: absolute;
+    top: 50em;
+}
+.sec-spotlight2{
+    /* border: 2px solid red; */
+    border: transparent;
+}  
+.sec-div-spot2{
+    /* border:2px solid greenyellow; */
+    height: 350px;
+    width: 1000px;
+}
+.sec-h2-spot2{
+    /* border: 2px solid hotpink; */
+    width: 150px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.sec-p1{
+    padding: 0;
+    border: 0;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.sec-div-spot2 button{
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 5em;
+    margin-left: 100px;
+    border: 2px solid #fbf7f7;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.sec-div-spot2 button:hover{
+    cursor: pointer;
+    color: #27EDF7;
+    border-color:#27EDF7;
+}
+.img2{
+    height: 402px;
+    width: 550px;
+    position: absolute;
+    top: 72em;
+    left: 969px;
+}
+.sec-spotlight3{
+    /* border: 2px solid red; */
+    border: transparent;
+}  
+.sec-div-spot3{
+    /* border:2px solid greenyellow; */
+    height: 350px;
+    width: 1000px;
+    margin-left: 515px;
+}
+.sec-h3-spot3{
+    /* border: 2px solid hotpink; */
+    width: 150px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.sec-p3{
+    padding: 0;
+    border: 0;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.sec-div-spot3 button{
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 5em;
+    margin-left: 100px;
+    border: 2px solid #fbf7f7;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.sec-div-spot3 button:hover{
+    cursor: pointer;
+    color: #27EDF7;
+    border-color:#27EDF7;
+}
+.img3{
+    height: 402px;
+    width: 550px;
+    position: absolute;
+    top: 97em;
+}

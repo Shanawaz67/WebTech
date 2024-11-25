@@ -1,0 +1,50 @@
+@import url(./dropdown.css);
+@import url(./rightnav.css);
+@import url(./carousel.css);
+@import url(./new.css);
+@import url(./swiper.css);
+@import url(./what.css);
+@import url(./footer.css);
+@media (min-width:370px) and (max-width:3600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.sec-header{
+    position: fixed;
+    z-index: 11111111 !important;
+    width: 100%;
+}
+.sec-div-head{
+    /* border: 2px solid; */
+    height: 35px;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 36px;
+    background: #244496;
+}
+.sec-a-head{
+    color: #fff;
+    text-decoration: none;
+}
+.sec-nav{
+    /* border: 2px solid; */
+    height: 88px;
+    position: fixed;
+    background-color: #fff !important;
+    width: 100%;
+    margin-top: 35px;
+    z-index: 111111111 !important;
+}
+.reebok{
+    /* border: 2px solid; */
+    margin-top: 50px;
+    margin-left: 60px;
+}

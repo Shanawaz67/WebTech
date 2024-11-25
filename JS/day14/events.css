@@ -1,0 +1,60 @@
+ol{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ol li{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ol li:hover{
+    cursor: pointer;
+}
+main{
+    border: 2px solid;
+    height: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/09/28/11/48/squirrel-6664212_640.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+aside{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    position: absolute;
+    top:100px;
+    left: 320px;
+    display: none;
+}
+aside h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ol{
+    border: 2px solid;
+    padding: 0%;
+    list-style: none;
+    width: 90px;
+    height: 200px;
+    background-color: #000;
+}
+
+ol li{
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}

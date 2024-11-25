@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset style="border: 2px solid brown;">
+        <legend align="center" style="border: 2px solid salmon;">Register Page</legend>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">name:</label></td>
+                    <td><input type="text" id="name" name="name" value="anil" autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">lname:</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">age:</label></td>
+                    <td><input type="number" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone num">phone num:</label></td>
+                    <td><input type="tel" id="phone num" name="phone num"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">email:</label></td>
+                    <td><input type="email" id="email" name="email" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password:</label></td>
+                    <td><input type="password" id="password" name="password"pattern="[A-Z]{4}[a-z]{4}[0-9]{4}" title="the pattern is"></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">Gender:</label></td>
+                    <td><input type="radio" id="gen" name="gen">male</td>
+                    <td><input type="radio" id="gen" name="gen">female</td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies</label></td>
+                    <td><input type="checkbox" id="hobbies" name="hobbies" checked>playing</td>
+                    <td><input type="checkbox" id="hobbies" name="hobbies">playing</td>
+                    <td><input type="checkbox" id="hobbies" name="hobbies">playing</td>
+                    <td><input type="checkbox" id="hobbies" name="hobbies">playing</td>
+                    <td><input type="checkbox" id="hobbies" name="hobbies">playing</td>
+                </tr>
+                <tr>
+                    <td><label for="course">course</label></td>
+                    <td><select name="course" id="course">
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                    </select></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="course1">course1</label></td>
+                    <td><input list="course1"></td>
+                    <td><datalist id="course1">
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                        <option value="mcom">mcom</option>
+                    </datalist></td>
+                </tr>
+                <tr>
+                    <td><label for="">address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>file:<input type="file"></td>
+                </tr>
+                <tr>
+                    <td>dob: <input type="datetime-local"></td>
+                </tr>
+                <tr>
+                    <td>week: <input type="week"></td>
+                </tr>
+                <tr>
+                    <td>month: <input type="month"></td>
+                </tr>
+                <tr>
+                    <td>range: <input type="range"></td>
+                </tr>
+                <tr>
+                    <td>color: <input type="color"></td>
+                </tr>
+                <tr>
+                    <td>image: <input type="image" src=""></td>
+                </tr>
+                <tr>
+                    <td>search: <input type="search"></td>
+                </tr>
+                <tr>
+                    <td>
+                        url: <input type="url">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><input type="submit" id="submit" name="submit"></td>
+                    <td><button>submit</button></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><button>reset</button></td>
+                </tr>
+                
+            </table>    
+        </form>
+    </fieldset>
+</body>
+</html>

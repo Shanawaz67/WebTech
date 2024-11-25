@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body, ul, li, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; /* White background for the form container */
+    background-image: url('./water.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0077b6; /* Dark blue heading color */
+}
+
+p {
+    font-size: 18px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Custom Problem Category */
+#customCategory {
+    display: none;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #0077b6; /* Dark blue footer background color */
+    color: #ffffff; /* White text color in the footer */
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+    background-color: #00a896; /* Green submit button color */
+    color: #ffffff; /* White text color on the button */
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #007b5f; /* Darker green on hover */
+}
+html {
+    background-image: url('./water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the image fixed while scrolling */
+}
+
+body {
+    background-image: url('./water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+nav {
+    background-color: #0077b6; /* Choose your desired background color */
+    color: #ffffff; /* Choose your desired text color */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+
+nav li {
+    margin: 0 20px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}

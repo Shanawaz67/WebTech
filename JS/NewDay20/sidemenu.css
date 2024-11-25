@@ -1,0 +1,18 @@
+ol{
+    border: 2px solid;
+    list-style: none;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+}
+
+ol li+li{
+    padding-top: 40px;
+}
+
+#cross{
+    color: white;
+    font-size: 35px;
+    margin-left: 60px;
+}

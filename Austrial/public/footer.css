@@ -1,0 +1,103 @@
+footer{
+    /* border: 2px solid orange; */
+    /* position: absolute;
+    top: 4620px; */
+    height: 950px;
+    width: 100%;
+    overflow-y: hidden;
+    color: #fff;
+    background-color: #004165;
+}
+#subfoot{
+    /* border: 2px solid green; */
+    width: 70%;
+    margin: auto;
+    height: inherit;
+    overflow-y: hidden;
+}
+#subfoot div{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+   
+}
+
+#pho{
+    /* border: 2px solid green; */
+        height: 3.5em;
+        margin-left: 480px;
+        /* color: #fff; */
+}
+.qq{
+    border: 0.3px solid rgb(73, 170, 255);
+    margin-left: 0px !important;
+}
+#subfoot div+div+div+div{
+    display: flex;
+    margin-top: 20px;
+}
+#subfoot div+div+div+div>div img{
+    /* margin-top: 0px; */
+    height: 4em;
+}
+#subfoot div+div+div+div+div{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 17.5px;
+    /* text-decoration: underline; */
+}
+#lang{
+    /* border:2px solid red; */
+    margin-left: 0px !important;
+    height: 200px;
+    gap: 60px;
+    
+}
+#lang >div{
+    margin-top: 0%;
+
+}
+#lang >div+div{
+    margin-top: 45px;
+}
+
+#lang >div+div+div+div{
+    line-height: 5px;
+    margin-top: 45px;
+}
+#lang >div+div ol li{
+    padding: 5px 0px 5px 0px;
+}
+#margin{
+    margin-left: 0px !important;
+}
+#tour{
+    margin-left: 770px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+#pro{
+   margin-left: 0px !important;
+    font-size: 12px !important;
+    line-height: 13px;
+}
+#click{
+    border: 1px solid rgb(73, 170, 255);
+    padding: 10px 90px 10px 8px ;
+    color: #fff;
+    background-color: #004165;
+}
+#fixed{
+    border: none;
+    position: fixed;
+    left: 1478.5px;
+    top: 500px;
+    z-index: 111111;
+    background: transparent;
+    
+}
+#fixed1{
+    height: 130px;
+    width: 40px;
+    padding: 0%;
+    background-color: rgba(255, 255, 255, 0);
+}

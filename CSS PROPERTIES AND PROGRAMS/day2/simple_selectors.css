@@ -1,0 +1,25 @@
+#demo{
+    background-color: red;
+}
+#demo1{
+    background-color: green;
+}
+#demo2{
+    background-color: blue;
+}
+.demo3{
+    background-color: crimson;
+}
+h1{
+    color: yellow;
+    background-color: black;
+}
+#demo,#demo1,#demo2,.demo3{
+    text-shadow: 10px 10px 1px black;
+}
+/*body{
+    background-color: aqua;
+}*/
+*{
+    background-color: bisque;
+}

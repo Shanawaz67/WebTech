@@ -1,0 +1,224 @@
+#places{
+    /* border: 2px solid; */
+    height: auto;
+}
+#places1{
+    /* border: 2px solid green; */
+    width: 1180px;
+    margin-top: 50px;
+    height: 130px;
+}
+#places1 div{
+    /* border: 2px solid green; */
+    /* margin-top: 50px; */
+    font-size: 23px;
+    font-weight: 700;
+    color: #004165;
+}
+#places1 div+div {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+#places1 div+div button{
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #00a0af;
+}
+
+#places3{
+    /* border: 2px solid blue; */
+    /* position: absolute; */
+    /* top: 2450px; */
+    /* overflow-y: hidden; */
+    width: 100%;
+    height: auto;
+}
+#subplaces3{
+    /* border: 2px solid green; */
+    width: 1180px;
+    margin: auto;
+    height: 120px;
+}
+#places3 div{
+    /* border: 2px solid green; */
+    margin-top: 0px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #004165;
+}
+#places3 div+div{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+#places3 div+div button{
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #00a0af;
+}
+
+#demo11{
+    /* border: 2px solid purple; */
+    height :525px;
+    width: 100%;
+    /* position: absolute; */
+    /* top: 3178px; */
+    overflow-y: hidden;
+}
+#subdemo11{
+    width: 80%;
+    /* margin: auto; */
+    /* border: 2px solid blue; */
+    height: inherit;
+    margin-top: 0px !important;
+    overflow-y: hidden;
+}
+
+#subdemo11 div{
+    color: #00535e;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+#subdemo11 div img{
+    height: 390px;
+    width:575px;
+    border-radius: 5px;
+}
+#subdemo11 div+div{
+    margin-top: 40px;
+}
+#subdemo11 div+div>img+img{
+    margin-left: 20px;
+}
+#name111{
+    height: 40px;
+    display: flex;
+    /* border: 2px solid; */
+    overflow-y: hidden;
+    transform: translateY(-100px);
+}
+#name111 div{
+    font-size: 20px;
+    /* border: 2px solid blue; */
+    font-size: 25px;
+    overflow-y: hidden;
+    color: #000;
+    padding-left: 10px;
+}
+#name111 div+div{
+    margin: 0px;
+    margin-left: 300px;
+}
+
+
+#inst{
+    /* border: 2px solid yellow; */
+    /* position: absolute;
+    top: 3800px;
+    width: 100%; */
+    height: 865px;
+    overflow-y: hidden;
+}
+#insta{
+    width: 84% !important;
+    margin: auto;
+    /* border: 2px solid rgb(13, 0, 96); */
+    height: inherit;
+    overflow-y: hidden;
+}
+#insta div{
+    font-size: 30px;
+    font-weight: 600;
+    color: #004165;
+    margin-left: 32px;
+}
+#insta div+div{
+    margin-top: 30px;
+    margin-left: 22.5px;
+}
+#insta div+div img{
+    border-radius: 14px;
+    height: 300px;
+    width: 280px;
+    padding: 8px 8px 8px 8px;
+}
+#insta div+div+div{
+    height: 200px;
+    overflow-y: hidden;
+}
+#insta div+div+div  svg{
+    /* overflow-y: hidden; */
+    /* border: 2px solid rgb(134, 0, 120); */
+    color: #ffffff;
+    /* margin-left: 220px; */
+    /* position: absolute; */
+    
+}
+
+#svg1{
+    position: absolute;
+    top: 3480px;
+    left: 410px;
+    color: #ffffff;
+}
+
+#svg2{
+    position: absolute;
+    top: 3480px;
+    left: 698px;
+    color: #ffffff;
+}
+
+#svg3{
+    position: absolute;
+    top: 3480px;
+    left: 985px;
+    color: #ffffff;
+}
+
+#svg4{
+    position: absolute;
+    top: 3480px;
+    left: 1270px;
+    color: #ffffff;
+}
+
+#svg5{
+    position: absolute;
+    top: 3795px;
+    left: 410px;
+    color: #ffffff;
+}
+#svg6{
+    position: absolute;
+    top: 3795px;
+    left: 698px;
+    color: #ffffff;
+}
+#svg7{
+    position: absolute;
+    top: 3795px;
+    left: 985px;
+    color: #ffffff;
+}
+#svg8{
+    position: absolute;
+    top: 3795px;
+    left: 1270px; 
+    color: #ffffff;
+}
+#load{
+    border: 1px solid  #004165;
+    height: 50px; 
+    font-weight: 600;
+    padding: 0px 30px 0px 30px;
+    border-radius: 5px;
+    background-color: #004165;
+    color: #fff;
+    margin-left: 520px;
+    margin-top: 10px;
+}

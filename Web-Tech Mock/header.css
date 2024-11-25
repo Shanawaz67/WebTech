@@ -1,0 +1,73 @@
+@import url(./nav.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.sec-header1{
+    /* border: 2px solid; */
+    height: 70px;
+}
+.titanimg{
+    height: 26px;
+    /* border: 2px solid; */
+    margin-top: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-bar{
+    width: 900px;
+    margin-left: 50px;
+}
+.sec-subdiv3-header{
+    /* border: 2px solid; */
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec-header-div{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-span4-header{
+    margin-right: 00px;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.search-bar{
+    /* border: 2px solid; */
+    height: 40px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ECEAE6;
+    
+}
+.search-div-img{
+    /* border: 2px solid; */
+    width: 100px;
+    margin-left: 870px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.mic{
+    height: 25px;
+    word-spacing: 50px;
+    /* cursor: pointer; */
+}
+.sec-subspan1{
+    height: 20px;
+    font-size: 80%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #070707;
+}

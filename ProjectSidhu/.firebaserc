@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "jalsamvedhana-f6630"
+  },
+  "targets": {
+    "jalsamvedhana-f6630": {
+      "hosting": {
+        "tr": [
+          "jalasama",
+          "jalsam"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

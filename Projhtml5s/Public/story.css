@@ -1,0 +1,86 @@
+.sec-story{
+    border: 2px solid ;
+    height: 800px;
+}
+.sub-div1-story{
+    /* border: 2px solid lawngreen; */
+    padding: 0;
+    margin: 0;
+    margin-top: 77px;
+    height: 720px;
+    width: 800px;
+}
+.sub-div1-story h1{
+    /* border: 2px solid magenta; */
+    width: 120px;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.sub-div1-story #para{
+    /* border: 2px solid blueviolet; */
+    padding: 0;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.sub-div1-story #para1{
+    /* border: 2px solid blueviolet; */
+    padding: 0;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.sub-div1-story button{
+    padding: 0;
+    border: 0;
+    height: 50px;
+    width: 190px;
+    border-radius: 5em;
+    margin-left: 100px;
+    border: 2px solid #fbf7f7;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.sub-div1-story button:hover{
+    cursor: pointer;
+    color: #27EDF7;
+    border-color:#27EDF7;
+}
+u:hover{
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    color: #27EDF7;
+    border-color:#27EDF7;
+}
+.sub-div2-story img{
+    /* border: 2px solid rebeccapurple; */
+    height: 722px;
+    width: 718px;
+    margin-top: 24px;
+    position: absolute;
+    top: 52px;
+    left: 800px;
+    text-decoration: underline;
+}

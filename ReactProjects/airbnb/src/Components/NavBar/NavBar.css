@@ -1,0 +1,47 @@
+.navOfAirBnb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinkParent{
+    display: flex;
+    border: 2px solid;
+    width: 20rem;
+    justify-content: space-around;
+    position: absolute;
+    right: 5rem;
+}
+
+.airLink{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+}
+
+.worldbtn{
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.navDivBtn{
+    background: transparent;
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuImg{
+    height: 1rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.navOfAirBnbContent{
+    border: 2px solid;
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 6rem;
+}

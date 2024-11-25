@@ -1,0 +1,29 @@
+div h1{
+    background-color: red;
+ } 
+ /* child selector */
+  div>h1{
+    background-color: blue;
+ } 
+ 
+ div span h1{
+    background-color: blue;
+ } 
+
+  div>span>h1{
+    background-color: blue;
+ } 
+
+ /* adjacent sibling */
+  div+h1{
+    background-color: green;
+ }
+
+ div+h1+h1{
+    background-color: yellow;
+ } 
+
+ /* general selectors */
+ div~h1{
+    background-color: orange;
+ }

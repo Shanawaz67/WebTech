@@ -1,0 +1,54 @@
+#background{
+    background-image: url("./image/aus1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 690px;
+}
+#background div span img{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+#background div{
+    /* border: 2px solid blue; */
+    width: 435px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+#background div span img {
+    width: 430px;
+    height: 380px;
+}
+#background div span+div button {
+    border-radius: 8px;
+    padding: 13px 30px 13px 30px;
+    background-color: #fbc834;
+    border: none;
+
+    /* margin-left: 0px; */
+}
+
+#background div span+div button+button {
+    background-color: #fff;
+    margin-left: 12px;
+    padding: 13px 25px 13px 25px;
+}
+#background>div>span+div{
+    /* border: 2px solid purple; */
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.img1{
+    background-color: transparent;
+    color: transparent !important;
+    border-color: transparent;
+    /* padding-bottom:  500px!important; */
+    margin-top: -14px !important;
+}
+.btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    /* padding-bottom:  50px!important; */
+}
+.save{
+    color: black !important;
+}

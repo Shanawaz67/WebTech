@@ -1,0 +1,20 @@
+[{
+    "name":"shannu",
+    "id":1,
+    "img":"https://cdn.pixabay.com/photo/2017/06/23/13/49/smoke-2434723_640.jpg"
+},
+{
+    "name":"kareem",
+    "id":2,
+    "img":"https://cdn.pixabay.com/photo/2018/03/31/13/43/bird-3278162_640.jpg"
+},
+{
+    "name":"chudi",
+    "id":3,
+    "img":"https://cdn.pixabay.com/photo/2018/04/11/04/13/peace-3309507_640.jpg"
+},
+{
+    "name":"vinay",
+    "id":4,
+    "img":"https://cdn.pixabay.com/photo/2013/09/29/08/11/peacock-188018_1280.jpg"
+}]
